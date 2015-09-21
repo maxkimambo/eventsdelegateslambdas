@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.pbStatus = new System.Windows.Forms.ProgressBar();
             this.BtnStart = new System.Windows.Forms.Button();
             this.lblProgress = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // progressBar1
+            // pbStatus
             // 
-            this.progressBar1.ForeColor = System.Drawing.Color.ForestGreen;
-            this.progressBar1.Location = new System.Drawing.Point(84, 148);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(306, 23);
-            this.progressBar1.TabIndex = 0;
+            this.pbStatus.ForeColor = System.Drawing.Color.ForestGreen;
+            this.pbStatus.Location = new System.Drawing.Point(84, 148);
+            this.pbStatus.Name = "pbStatus";
+            this.pbStatus.Size = new System.Drawing.Size(306, 23);
+            this.pbStatus.TabIndex = 0;
             // 
             // BtnStart
             // 
@@ -66,7 +66,7 @@
             this.ClientSize = new System.Drawing.Size(467, 219);
             this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.BtnStart);
-            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.pbStatus);
             this.Name = "Form1";
             this.Text = "Async Delegates Demo";
             this.ResumeLayout(false);
@@ -76,7 +76,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar pbStatus;
         private System.Windows.Forms.Button BtnStart;
         private System.Windows.Forms.Label lblProgress;
     }
