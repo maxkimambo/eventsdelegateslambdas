@@ -40,7 +40,9 @@ namespace AsyncDelegates
             this.pbStatus.Maximum = max;
             for (int i = 0; i <= max; i++)
             {
+
                 Thread.Sleep(100);
+                
                 ShowProgress(i);
             }
         }
@@ -56,6 +58,7 @@ namespace AsyncDelegates
             if (lblProgress.InvokeRequired)
             {
                 var showProgressDel = new ShowProgressDelegate(ShowProgress);
+                
                 this.Invoke(showProgressDel, new object[]{i}); 
             }
             else
