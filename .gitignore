@@ -22,10 +22,15 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+<<<<<<< HEAD
 # Visual Studio 2015 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
+=======
+# Visual Studo 2015 cache/options directory
+.vs/
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -40,10 +45,13 @@ TestResult.xml
 [Rr]eleasePS/
 dlldata.c
 
+<<<<<<< HEAD
 # DNX
 project.lock.json
 artifacts/
 
+=======
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
 *_i.c
 *_p.c
 *_i.h
@@ -84,7 +92,10 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+<<<<<<< HEAD
 *.sap
+=======
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
 
 # TFS 2012 Local Workspace
 $tf/
@@ -97,7 +108,11 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+<<<<<<< HEAD
 # JustCode is a .NET coding add-in
+=======
+# JustCode is a .NET coding addin-in
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
 .JustCode
 
 # TeamCity is a build add-in
@@ -109,7 +124,10 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+<<<<<<< HEAD
 nCrunchTemp_*
+=======
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
 
 # MightyMoose
 *.mm.*
@@ -158,6 +176,7 @@ csx/
 # Windows Store app package directory
 AppPackages/
 
+<<<<<<< HEAD
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
@@ -165,6 +184,10 @@ AppPackages/
 !*.[Cc]ache/
 
 # Others
+=======
+# Others
+*.[Cc]ache
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
@@ -174,7 +197,11 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+<<<<<<< HEAD
 orleans.codegen.cs
+=======
+bower_components/
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -207,6 +234,7 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+<<<<<<< HEAD
 
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
@@ -215,3 +243,5 @@ FakesAssemblies/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+=======
+>>>>>>> 703960d94d9392db61bebee1dcdf18f2604b9a1d
